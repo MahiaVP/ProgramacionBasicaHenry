@@ -17,10 +17,11 @@ int main (){
        sb = h*precio;
        rf = sb*rete;
        sn = sb-rf;
-       printf("Trabajador: %sSueldo bruto: %.2f.\nRetencion: %.2f.\nSueldo neto: %.2f.\n",nombre,sb,rf,sn);
+       printf("Trabajador: %s\nSueldo bruto: %.2f.\nRetencion: %.2f.\nSueldo neto: %.2f.\n",nombre,sb,rf,sn);
        printf("Desea continuar?\n0) No.\n1) Si.\n");
        scanf("%d",&k);
        } while (k==1);
 }
     
+
 
